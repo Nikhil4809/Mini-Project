@@ -1,0 +1,39 @@
+<html>
+   <head>
+
+   </head>
+   <body>
+      <style>
+      body{
+         background-image: url("img/qwer.jpg");
+         background-size: cover;
+         background-attachment: fixed;
+
+     }
+   </style>
+      <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylefeed.css">
+  <title>feedback Form</title>
+  <form action="form.php" method="POST">
+      <div class="form__group field">
+         <input type="input" class="form__field" placeholder="Name" name="fname" id='name' required />
+         <label for="name" class="form__label">Name</label>
+       </div>
+       <div class="form__group field">
+         <input type="email" class="form__field" placeholder="Name" name="email" id='email' required />
+         <label for="name" class="form__label">Email</label>
+       </div>
+       <div class="form__group field">
+        <input type="text" class="form__field" placeholder="Name" name="feed" id='feed' required />
+        <label for="feed" class="form__label">Feedback</label> 
+       </div>
+       <button type="submit">send</button>
+      </form>
+   </body>
+  
+</html>
+
+
+
+
